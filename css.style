@@ -1,0 +1,10 @@
+ <style>
+            #dice {
+                position : relative
+                animation: roll 2s infinite linear;
+            }
+            @keyframes roll {
+                0% { transform: rotation(0);}
+                100% {transform: rotation(360); ;}
+            }
+        </style>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A dice is moving</title>
+        <style>
+            
+            #dice 
+            {
+                position : relative;
+                animation: roll 2s infinite linear;
+            
+        }
+        
+        @keyframes roll {
+                0% { transform: rotate(0); }
+                100% {transform: rotate(360deg); }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="dice">
+            <img src="disc.png" alt="Dice" height="200">
+               </div>
+    </body>
+</html>
